@@ -16,7 +16,10 @@ void reverse( string &ans,int i,int j){
 }
 int main(){
     int i=0;
-    string stir= "hello";
+    string stir;
+    cout<<"enter a string\n" ;
+    cin>>stir;
+     getline(cin, stir);
     int n=stir.length();
     int j=n-1;
 
